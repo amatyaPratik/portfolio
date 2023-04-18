@@ -1,0 +1,31 @@
+/* *:hover{
+    color:red;
+} */
+button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    box-shadow: 0px 0px 7px black;
+    cursor: pointer;
+}
+
+button:hover{
+    color:red;
+}
+
+button span{
+    font-size: 1.3rem;
+}
+
+.menu-label{
+    color: black;
+    display: block;
+    text-align: center;
+    /* visibility: hidden; */
+    /* margin-top: -10px; */
+}
+.menu-label:hover{
+    /* color:red; */
+    visibility:visible;
+}
