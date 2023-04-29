@@ -1,0 +1,15 @@
+.movies-grid{
+    box-sizing: content-box; 
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 70px; */
+    max-height: 80vh;
+    max-width: 90vw;
+    /* border: 3px solid beige; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    padding: .5rem 1rem;
+    backdrop-filter: blur(30px);
+}
+

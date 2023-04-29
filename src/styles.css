@@ -6,7 +6,54 @@
     box-sizing: border-box;
 } 
 body{
+  background-color: darkblue;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    /* font-family: 'Audiowide', cursive; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Foldit', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Sacramento', cursive; */
 }
+
+h3{
+    font-family: 'Sacramento', cursive;
+    font-size: 1.4rem;
+    color: yellow;
+    font-weight: 400;
+}
+
+
+   /* width */
+   ::-webkit-scrollbar {
+    width: 22px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background: #f1f1f1; */
+    /* background-color: transparent; */
+    /* border: 1px solid rgba(255, 255, 255, .4); */
+    background-image: url(../src/assets/res/sprites/track.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb:hover{
+    /* background: repeating-linear-gradient(
+      45deg,
+      thistle,
+      coral 30px,
+      thistle 20px,
+      coral 30px
+    ); */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb {
+    /* background: #555; */
+    background-image: url(../src/assets/res/sprites/train-box1.png);
+    background-size: contain;
+  }

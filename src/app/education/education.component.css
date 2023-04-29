@@ -1,0 +1,98 @@
+.viewport-container{
+    width: 40vw;
+    height: 80vh;
+    /* border: 3px solid fuchsia; */
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+ul li{
+    margin-bottom: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: whitesmoke;
+}
+
+ul li h6{
+    font-weight: 300;
+}
+
+ul li .list-logo-bullet{
+    margin-right: 1rem;
+    border-radius: 10px;
+    /* border: 3px solid fuchsia; */
+}
+
+ul li .list-logo-bullet img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.education-carrer-container{
+    /* border: 3px solid whitesmoke; */
+    width: 80vw;
+    position: absolute;
+    display: flex;
+    align-items:start;
+    left: 0;
+    top: 0;
+    justify-content:center;
+    transition: 200ms all;
+    padding-top: 1.2rem;
+}
+
+.education-container{
+    width: 50%;
+    /* display: inline-block; */
+    /* border: 3px solid rebeccapurple; */
+}
+
+.career-container{
+    width: 50%;
+    /* display: inline-block; */
+    /* border: 3px solid red; */
+}
+
+.toggler-headings{
+    /* border: 3px solid red; */
+    width: 40vw; 
+    display: flex;
+    align-items:start; 
+    justify-content:left;
+}
+
+h1.and{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    pointer-events: none;
+    user-select: none;
+    /* background: darkblue; */
+}
+
+h3{ 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h3.active{
+    text-decoration: underline;
+}
+
+small{
+    color: tan;
+    /* font-style: italic; */
+    font-weight: 300;
+    line-height: 10px !important;
+    border: 1px solid forestgreen;
+}
+
+.eca{
+    color: white;
+}
+.eca i{ 
+    /* color: thistle; */
+    margin-right: 1rem;
+}

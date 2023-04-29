@@ -1,0 +1,51 @@
+.account-overview-container{
+    width: fit-content;
+    border: 5px solid gray;
+    /* border: 1px solid violet; */
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 0 auto;
+    border-radius: 3px 20px 0 10px;
+    backdrop-filter: blur(30px);
+    /* box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3); */
+}
+
+.account-overview-container hr{
+    width: 200px;
+    margin: 1rem auto;
+}
+.account-overview-container p{
+    line-height: 1.7rem;
+}
+
+.account-img{
+    width: 200px;
+    position: relative;
+    /* border: 1px solid red; */
+    margin: 1rem auto;
+}
+
+.account-img img{
+    width: 100%; 
+}
+
+p.user-details{
+    /* text-align: center; */
+}
+
+#username{
+    font-weight: normal;
+    color: whitesmoke;
+}
+#role{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.user-details a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+

@@ -1,0 +1,72 @@
+.movie-panel{
+    width: 10rem;
+    height: 11rem;   
+    text-align: center !important;
+    position: relative;
+    background-color: rgba(11, 66, 187, 0);
+    /* background-color: navy;  */
+    backdrop-filter: blur(10px);
+    /* box-shadow: 3px 4px 5px rgba(0, 0, 0, .3); */
+    /* border-radius: 5px; */
+    float: left;
+    margin: 23px 20px;
+}
+
+.cd-container{
+    height: 9rem;
+    width: 9rem;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.movie-panel img{
+    border-radius: 5px;
+    height: 9rem;
+    width: 9rem;
+    object-fit: cover;
+    object-position: top;
+    /* width: 100%; */
+    /* height: 80%; */
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 1px 2px 2px rgba(0,0,0, 0.5)
+}
+
+.movie-panel p{  
+    line-height: 15px;
+    /* color:thistle; */
+    color: white;
+    text-shadow: 1 1 1px black;
+    height: 20%;
+    font-size: .9rem; 
+    overflow: hidden;
+    /* border: 1px solid lime; */
+    margin: 0;
+    position: absolute;
+    /* padding-top: 3px; */
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    padding-top: .5rem;
+}
+
+.cd-hole-outer{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute; 
+    background-color: gray;
+}
+
+.cd-hole-inner{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color:rgb(173, 167, 210);  
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute; 
+    box-shadow: inset 1px 2px 2px rgba(0,0,0, 0.7); 
+}

@@ -1,0 +1,74 @@
+#labels {
+    width: 90vw;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    /* text-decoration: underline; */
+    /* background-color: #e5e5e5; */
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+}
+#labels ul{
+    list-style-type: none;
+}
+
+  #labels #title {
+    width: 25%;
+  }
+  #labels #artist {
+    width: 25%;
+  }
+  
+  #labels #album {
+    width: 25%;
+  }
+  /* #labels #year {
+    width: 5%;
+  } */
+  #labels #genre {
+    width: 25%;
+  }
+  #labels #label {
+    width: 15%;
+  }
+  
+  #labels ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #labels ul li {
+    font-weight: 500;
+    font-size: .8rem;
+    /* color: coral; */
+    /* font-family: 'Sacramento', cursive; */
+  }
+  
+  table#songs-table {
+    width: 90vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+  }
+  
+  #songs-table .song-item:nth-child(odd) {
+    background-color: #dadada;
+  }
+  #songs-table .song-item:nth-child(even) {
+    /* background-color: #b1b1b1; */
+  }
+  
+  .song-item td {
+    padding: 8px 0;
+  }
+
+  .songs-container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #fff;
+    width: fit-content;
+    height: 76vh;
+  }

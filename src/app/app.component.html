@@ -1,18 +1,22 @@
-<!-- <img src="assets/res/mario.jpg" width="100vw" alt="ff"> -->
- 
-<div class="container">
-    <div class="top-bar">
-        <span style="margin-right:2rem;">{{updateTime()}}</span> 
-        <i class="fa-solid fa-wifi" style="margin-right:2rem;"></i>
-        <i class="fa-solid fa-battery-half" style="margin-right:1.3rem; font-size: 1.4rem;"></i> 
-    </div>
+<div class="container"> 
     <div class="background"> 
     </div>
     <div class="button-bar">
-        <app-menu-item icon="fa-solid fa-book" label="books"></app-menu-item>
-        <app-menu-item icon="fa-sharp fa-solid fa-gamepad" label="games"></app-menu-item>
+        <div id="hint" #hint>hint</div>
+        <a href="#" routerLink="about-me" routerLinkActive="active-link"><i class="fa-solid fa-user"></i></a>
+        <a href="#" routerLink="games" routerLinkActive="active-link"><i class="fa-sharp fa-solid fa-gamepad"></i></a>
+        <a href="#" routerLink="education" routerLinkActive="active-link"><i class="fa-solid fa-graduation-cap"></i></a>
+        <a href="#" routerLink="music" routerLinkActive="active-link"><i class="fa-sharp fa-solid fa-headphones"></i></a>
+        <a href="#" routerLink="photos" routerLinkActive="active-link"><i class="fa-sharp fa-solid fa-image"></i></a>
+        <a href="#" routerLink="movies" routerLinkActive="active-link"><i class="fa-solid fa-film"></i></a>
+         
+        <!-- <app-menu-item icon="fa-solid fa-book" label="books" routerLink="education" style="background: white;"></app-menu-item>
+        <app-menu-item icon="fa-sharp fa-solid fa-gamepad" label="games" routerLink="games"></app-menu-item>
         <app-menu-item icon="fa-solid fa-graduation-cap" label="academics"></app-menu-item>
         <app-menu-item icon="fa-solid fa-gamepad" label="games"></app-menu-item>
-        <app-menu-item icon="fa-sharp fa-solid fa-headphones" label="music"></app-menu-item>
+        <app-menu-item icon="fa-sharp fa-solid fa-headphones" label="music"></app-menu-item> -->
+    </div> 
+    <div class="display-area">
+        <router-outlet></router-outlet>
     </div> 
 </div>
