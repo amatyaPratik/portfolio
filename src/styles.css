@@ -10,11 +10,14 @@ body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    /* font-family: 'Audiowide', cursive; */
+    /* font-family: 'Audiowide', cursive;
+    font-family: 'Foldit', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Londrina Sketch', cursive; */
     font-family: 'Poppins', sans-serif;
-    /* font-family: 'Foldit', cursive; */
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Sacramento', cursive; */
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Beastly', cursive;
+    font-family: 'Sacramento', cursive; */
 }
 
 h3{
@@ -27,33 +30,33 @@ h3{
 
    /* width */
    ::-webkit-scrollbar {
-    width: 22px;
+    width: 10px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
     /* background: #f1f1f1; */
-    /* background-color: transparent; */
-    /* border: 1px solid rgba(255, 255, 255, .4); */
-    background-image: url(../src/assets/res/sprites/track.png);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .4);
+    /* background-image: url(../src/assets/res/sprites/track.png);
     background-size: contain;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y; */
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb:hover{
-    /* background: repeating-linear-gradient(
+    background: repeating-linear-gradient(
       45deg,
       thistle,
       coral 30px,
       thistle 20px,
       coral 30px
-    ); */
+    );
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb {
-    /* background: #555; */
-    background-image: url(../src/assets/res/sprites/train-box1.png);
-    background-size: contain;
+    background: #555;
+    /* background-image: url(../src/assets/res/sprites/train-box1.png);
+    background-size: contain; */
   }

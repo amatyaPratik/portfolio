@@ -63,6 +63,7 @@
   
   .song-item td {
     padding: 8px 0;
+    background-color: transparent;
   }
 
   .songs-container{

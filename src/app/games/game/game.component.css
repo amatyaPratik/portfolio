@@ -1,6 +1,6 @@
 .game-panel{
-    width: 140px;
-    height: 140px;  
+    width: 110px;
+    height: 110px;  
     text-align: center !important;
     position: relative;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, .3);
@@ -33,7 +33,7 @@
     /* border: 1px solid lime; */
     margin: 0;
     position: absolute;
-    padding-top: 3px;
+    /* padding-top: 3px; */
     bottom: 0;
     left: 0;
     right: 0;

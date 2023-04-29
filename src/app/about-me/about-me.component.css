@@ -49,3 +49,57 @@ p.user-details{
     margin-left: 1rem;
 }
 
+.skills{
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    width: 25%;
+    height: auto;
+    border: 2px solid floralwhite;
+}
+
+.skills .tab, .languages tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills i, .languages i{
+    background-color: yellow; 
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.skills ul, .languages ul{
+    list-style-type: none;
+    border: 1px solid bisque;
+}
+
+.skills li, .languages li{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: whitesmoke;
+    margin-bottom: .2rem;
+}
+
+.skills img{
+    width: 30px;
+    margin-right: .4rem;
+    
+}
+
+.languages{
+    position: absolute;
+    left: 2rem;
+    top: 22rem;
+    width: 25%;
+    height: auto;
+    border: 2px solid floralwhite;
+}

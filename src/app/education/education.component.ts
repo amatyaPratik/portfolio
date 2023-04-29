@@ -7,7 +7,7 @@ import { Component, ElementRef, OnInit, TemplateRef, ViewChild } from '@angular/
 })
 export class EducationComponent implements OnInit {
 
-  @ViewChild('content') content !:ElementRef
+  @ViewChild('contentLeft') contentLeft !:ElementRef
 
   constructor() { }
 
@@ -17,9 +17,9 @@ export class EducationComponent implements OnInit {
   toggle(event:any){
     console.log('toggl: ',event.target.innerText)
     if(event.target.innerText.toLowerCase()==='education')
-      this.content.nativeElement.style.left = '0%'
+      this.contentLeft.nativeElement.style.left = '0%'
     else
-      this.content.nativeElement.style.left = '-100%'
+      this.contentLeft.nativeElement.style.left = '-100%'
   
   const h3 = document.getElementsByClassName('toggler-heading') 
   console.log(h3[0])
