@@ -1,0 +1,13 @@
+<!-- <div class="img-content" >
+  <img [src]="imgNameAndDes.name" alt="name" #img> 
+</div>
+<div class="desc-text" #desc>
+{{imgNameAndDes.desc}}}
+</div> -->
+
+    <div class="img-content">
+      <img [src]="imgNameAndDes[currentImageIndex].name" alt="content image" #img>
+    </div>
+    <div class="desc-text" #desc>
+      {{imgNameAndDes[currentImageIndex].desc  }}  
+    </div>

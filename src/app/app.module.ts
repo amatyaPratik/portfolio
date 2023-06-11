@@ -8,23 +8,31 @@ import { EducationComponent } from './education/education.component';
 import { GamesComponent } from './games/games.component';
 import { GameComponent } from './games/game/game.component';
 import { MusicComponent } from './music/music.component';
-import { PhotosComponent } from './photos/photos.component';
+import { ArtsComponent } from './arts/arts.component';
 import { MoviesComponent } from './movies/movies.component';
 import { MovieComponent } from './movies/movie/movie.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { CareerComponent } from './career/career.component';
+import { ImgDisplayComponent } from './shared/img-display/img-display.component';
+import { LiteratureComponent } from './literature/literature.component';
+import { FavoritesComponent } from './favorites/favorites.component';
 
 @NgModule({
-  declarations: [						
+  declarations: [									
     AppComponent,
     MenuItemComponent,
     EducationComponent,
       GamesComponent,
       GameComponent,
       MusicComponent,
-      PhotosComponent,
+      ArtsComponent,
       MoviesComponent,
       MovieComponent,
-      AboutMeComponent
+      AboutMeComponent,
+      CareerComponent,
+      ImgDisplayComponent,
+      LiteratureComponent,
+      FavoritesComponent
    ],
   imports: [
     BrowserModule,

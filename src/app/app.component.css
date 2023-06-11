@@ -6,11 +6,13 @@
     background-repeat: no-repeat;
     background-size: cover;   */
     opacity: 0.8;
+    /* border: 3px solid forestgreen; */
     height: 100vh;
     width: 100vw;
     filter: blur(1px);
     position: relative; 
     overflow: hidden;
+    /* padding: 0; */
 } 
 
 .button-bar{
@@ -67,7 +69,7 @@
     background-color: aliceblue;
 }
 
-.top-bar{
+/* .top-bar{
     position: absolute;
     top: 0;
     left: 0;
@@ -80,9 +82,9 @@
     font-size: .8rem;
     color: whitesmoke;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+} */
 .display-area{
-    width:100vw;
+    width:92vw;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -94,5 +96,6 @@
     padding-top: 1rem;
     /* display: none; */
     background-color: transparent;
+    /* background-color: #a0a0a0; */
 }
  

@@ -2,122 +2,157 @@
   <h3 class="toggler-heading active" (click)="toggle($event)">
     Education
   </h3>
-  <h1 class="and" style="font-family: 'Great Vibes', cursive; color:tomato; text-shadow: 0 1px 2px maroon;">&</h1>
+  <i class="fa-solid fa-circle" style="margin-right: 1.8rem; margin-left:.2rem; padding-top: .4rem; font-size: .5rem;color: coral;"></i>
   <h3 class="toggler-heading" (click)="toggle($event)">
-    Career
+    Trainings
   </h3>
 </div>
 
-<div class="viewport-container">
-  <div class="education-carrer-container" #contentLeft>
+<div class="container">
+  <div class="viewport-container">
+  <div class="education-carrier-container" #contentLeft>
     <div class="education">
-      <h3>Academics</h3>  
-      <ul>
-        <li> 
-          <span class="list-logo-bullet">
-            <img src="../../assets/res/logos/LA.jpg" alt="LA logo" width="100%">
-          </span>
-          <span class="list-text">
-            School Leaving Certificate (2012) 
-            <h5>Little Angels' School</h5>
-          </span> 
-        </li>
-        <li>
-          <span class="list-logo-bullet">
-            <img src="../../assets/res/logos/LA.jpg" alt="LA logo" width="100%">
-          </span>
-          <span class="list-text">
-            +2 Science Studies (2013-2015)
-            <h5>Little Angels' High School</h5>
-          </span>
-        </li>
-        <li>
-          <span class="list-logo-bullet">
-            <img src="../../assets/res/logos/sxc.jfif" alt="SXC logo" width="100%">
-          </span>
-          <span class="list-text">
-            Bsc CSIT Tribhuwan University (2016-2020)
-            <h5>St. Xavier's College</h5>
-          </span>
-        </li>
-      </ul>
-      <br> 
-      <h3>
-        Extra Curricular Activities
-      </h3> 
-      <p class="eca">
-          <i class="fa-solid fa-futbol"></i>Football
-          <i class="fa-solid fa-guitar"></i>Guitar 
-          <i class="fa-solid fa-palette"></i>Painting <br>
-          <i class="fa-solid fa-hat-cowboy"></i>Nepal Scouts <br>
-          <i class="fa-solid fa-person-swimming"></i>Swimming 
-          <i class="fa-solid fa-basketball"></i>Basketball
-      </p>
+      <div class="academics-container">
+        <h3 style="margin-top: 1rem;">Academics</h3>
+        <div class="line"></div>  
+        <ul>
+          <li class="study-item">
+            <div class="accordion-tab">
+              <i class="fa-solid fa-chevron-down"></i>
+              <span class="list-logo-bullet">
+                <img src="../../assets/res/logos/sxc.jfif" alt="SXC logo" width="100%">
+              </span>
+              <span class="list-text">
+                Bsc CSIT Tribhuwan University
+                <h5>St. Xavier's College . Tribhuwan University</h5>
+                <h5>(2016-2020)</h5>
+              </span>
+            </div> 
+            <div class="accordion">
+              Microprocessor, Computer Networking, Simulation and Modelling, Linear-Algebra, Statistics, Calculus, Numerical Method, Web-Technology, Discrete Math, C-programming, C++, Data Structures, Algorthm Analysis & Design,
+              Operating Systems, Network System Administration, Distributed Systems, Advanced Java, Digital Logic, Artificial Intelligence, Data Warehousing and Mining, Image Processing
+            </div>
+          </li>
+          <li class="study-item">
+            <div class="accordion-tab">
+              <i class="fa-solid fa-chevron-down"></i>
+              <span class="list-logo-bullet">
+                <img src="../../assets/res/logos/LA.jpg" alt="LA logo" width="100%">
+              </span>
+              <span class="list-text">
+                +2 Science Studies
+                <h5>Little Angels' High School . HSEB</h5>
+                <h5>(2013-2015)</h5>  
+              </span>
+            </div>
+              <div class="accordion">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nihil a tenetur distinctio ipsa dolores?
+              </div> 
+          </li>
+          <li class="study-item"> 
+            <div class="accordion-tab">
+              <i class="fa-solid fa-chevron-down"></i>
+            <span class="list-logo-bullet">
+              <img src="../../assets/res/logos/LA.jpg" alt="LA logo" width="100%">
+            </span>
+            <span class="list-text">
+              School Leaving Certificate
+              <h5>Little Angels' School . NEB</h5>
+              <h5>(2012)</h5>
+            </span> 
+            </div>
+            <div class="accordion">
+              Fun, mischievous and tough memories
+            </div>
+          </li>
+        </ul> 
+      </div> 
+      <div class="eca-container">
+        <h3>
+          Extra Curricular Activities
+        </h3> 
+        <p class="eca">
+            <i class="fa-solid fa-futbol"></i>
+            <i class="fa-solid fa-guitar"></i>  
+            <i class="fa-solid fa-palette"></i> 
+            <i class="fa-solid fa-hat-cowboy"></i> 
+            <i class="fa-solid fa-person-swimming"></i> 
+            <i class="fa-solid fa-basketball"></i>
+            <i class="fa-solid fa-tent"></i>
+            <i class="fa-solid fa-hand-holding-medical"></i>
+        </p>
+      </div>
     </div>
   
-    <div class="career">
-      <ul>
-
-        <li>
+    <div class="training">
+      <ul> 
+        <li class="training-item">
           <span class="list-logo-bullet">
-            <img src="../../assets/res/logos/cotiviti.jfif" alt="Cotiviti logo" width="100%">
+            <img src="../../assets/res/logos/deeplearningai0.jpg" alt="deeplearning.ai logo">
           </span>
           <span class="list-text">           
-            Frontend (Angular) Developer
-            <h5>COTIVITI NEPAL · Full-time</h5>
-            <h6>Apr 2022 - current · 8 mos</h6>
-            <h6>Hattisar, Kathmandu · Hybrid</h6>
-            <!-- <small>Stacks: Oracle, PL/SQL, Java, Spring, Angular, JS.</small> -->
-          </span> 
+              Neural Networks & Deep-Learning 
+            <h5>DeepLearning.ai · Coursera</h5>
+            <h6>Sept 2022</h6> 
+           </span> 
         </li>
 
-        <li>
+        <li class="training-item">
           <span class="list-logo-bullet">
-            <img src="../../assets/res/logos/cotiviti.jfif" alt="Cotiviti logo" width="100%">
+            <img src="../../assets/res/icons/angular.svg" alt="Angular logo">
           </span>
           <span class="list-text">           
-            Trainee
-            <h5>COTIVITI NEPAL · Internship</h5>
-            <h6>Mar 2022 - Apr 2022 · 2 mos</h6>
-            <h6>Hattisar, Kathmandu · Hybrid</h6>
-            <!-- <small>Project-based training on technologies like SQL, Java, Spring, Angular, Shell Scripting, U.S. Healthcare System.</small> -->
-          </span> 
+            Angular - the Complete Guide
+            <h5>Maxilian Schwarzmüller · Udemy</h5>
+            <h6>Feb 2023</h6> 
+           </span> 
         </li>
-
-        <li>
+  
+        <li class="training-item">
           <span class="list-logo-bullet">
-            <img src="../../assets/res/logos/leapfrog.png" alt="Leapfrog logo" width="100%">
+            <img src="../../assets/res/logos/git-bw.svg" alt="Git logo">
           </span>
           <span class="list-text">           
-            Intern
-            <h5>Leapfrog Technology, Inc.</h5>
-            <h6>Dec 2021 - Jan 2022 · 2 mos</h6>
-            <h6>Dillibazar, Kathmandu · Hybrid</h6>
-            <!-- <small>Internship on Software Engineering with trainings on Web-development, Git, UI designing</small> -->
-          </span> 
+            Git and Github Bootcamp
+            <h5>Colt Steele . Udemy</h5>
+            <h6>Mar 2023</h6> 
+           </span> 
         </li>
 
-        <li>
+        <li class="training-item">
           <span class="list-logo-bullet">
-            <img src="../../assets/res/logos/redmud.jfif" alt="Leapfrog logo" width="100%">
+            <img src="../../assets/res/logos/deeplearningai0.jpg" alt="deeplearning.ai logo">
           </span>
           <span class="list-text">           
-            Digital Marketting, Illustrator & Designer
-            <h5>Redmud Coffee pvt. ltd.</h5>
-            <h6>Jul 2021 - Dec 2021 · 6 mos</h6>
-            <h6>Durbarmarg, Kathmandu · Hybrid</h6>
-            <!-- <small>Making Illustrations, content for printables (menu, flyers,etc.) and social media posts. Handling social media platforms.   </small> -->
-          </span> 
+              HTML, CSS, JS and UI designing
+            <h5>Leapfrog Tech · Intern</h5>
+            <h6>Jan 2022</h6> 
+           </span> 
         </li>
 
+        <li class="training-item">
+          <span class="list-logo-bullet">
+            <img src="../../assets/res/logos/deeplearningai0.jpg" alt="deeplearning.ai logo">
+          </span>
+          <span class="list-text">           
+              HTML, CSS, JS and UI designing
+            <h5>Leapfrog Tech · Intern</h5>
+            <h6>Jan 2022</h6> 
+           </span> 
+        </li>
       </ul>
     </div>
-  </div>
-
-  <div class="training-projects-container" #contentRight>
-    <div class="trainings">
-
-    </div>
-  </div>
+  </div> 
 </div>
 
+<div class="content-board">
+  <app-img-display></app-img-display>
+    <!-- <div class="img-content">
+      <img src="../../assets/res/photos/school1.jpeg" alt="content image" #img>
+    </div>
+    <div class="desc-text" #desc>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptas sed? Voluptatibus sit provident perferendis, error harum dolor adipisci nostrum?
+    </div> -->
+</div>
+
+</div>

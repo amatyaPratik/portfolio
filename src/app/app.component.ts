@@ -13,7 +13,7 @@ export class AppComponent implements OnInit, OnDestroy{
   timeUpdateInterval!: any
   // renderer: Renderer2
   activeRoute!: string 
-  routesInOrder = ['/about-me','/games','/education','/music','/photos','/movies']
+  routesInOrder = ['/about-me','/education','/career','/arts','/literature','/favorites']
   @ViewChild('hint') hint!:ElementRef
 
   constructor(

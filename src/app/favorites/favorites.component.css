@@ -1,0 +1,17 @@
+#favorites{
+    /* width: 100%; */
+    /* background-color: rgba(255, 255, 255, .4); */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    margin-bottom: 2rem;
+}
+
+#favorites a{
+    margin-right: 3rem;
+    text-decoration: none;
+}
+
+#favorites a.active-link{
+    text-decoration: underline;
+}

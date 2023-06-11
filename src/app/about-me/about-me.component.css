@@ -1,10 +1,15 @@
 .account-overview-container{
     width: fit-content;
-    border: 5px solid gray;
+    /* border: 5px solid gray; */
     /* border: 1px solid violet; */
+    height: 100%;
     text-align: center;
     padding: 1rem 3rem;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 3px 20px 0 10px;
     backdrop-filter: blur(30px);
     /* box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3); */
@@ -55,7 +60,7 @@ p.user-details{
     top: 2rem;
     width: 25%;
     height: auto;
-    border: 2px solid floralwhite;
+    /* border: 2px solid floralwhite; */
 }
 
 .skills .tab, .languages tab{
@@ -78,7 +83,7 @@ p.user-details{
 
 .skills ul, .languages ul{
     list-style-type: none;
-    border: 1px solid bisque;
+    /* border: 1px solid bisque; */
 }
 
 .skills li, .languages li{
@@ -101,5 +106,5 @@ p.user-details{
     top: 22rem;
     width: 25%;
     height: auto;
-    border: 2px solid floralwhite;
+    /* border: 2px solid floralwhite; */
 }

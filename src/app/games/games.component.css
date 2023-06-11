@@ -13,7 +13,11 @@
 .consoles{
     height: 20vh;
     width: 90vw;
-    position: relative;
+    position: fixed;
+    /* border: 3px solid beige; */
+    /* margin-top: auto; */
+    /* bottom: 10px; */
+    bottom: 4rem;
 }
 
 .console{
