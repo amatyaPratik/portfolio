@@ -108,3 +108,69 @@ p.user-details{
     height: auto;
     /* border: 2px solid floralwhite; */
 }
+
+
+.text-container{
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    text-align: center;
+    /* background-color:aquamarine; */
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+hr{
+    width: 40vw;
+    margin: 0 auto;
+    border-style:groove;
+    background-color: yellow;
+}
+
+.greeting-text{
+    /* background-color: aliceblue; */
+    /* top: 50%; */
+    line-height: 1rem;
+    transform: translateY(-50%);
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 2rem;   
+    font-family: 'Sacramento', cursive;
+}
+
+#hi{
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: yellow;
+    line-height: 1.2rem;
+    font-family: 'Sacramento', cursive;
+}
+
+.greeting-text h1#name{
+    font-size: 5rem;
+    display: inline;
+    color: white;
+    color:white ;
+    text-shadow: 0 1px 3px darkolivegreen;
+    font-family:'Audiowide', sans-serif;
+}
+
+.greeting-text h1#name:hover{
+    text-shadow: 0 2px 3px darkcyan;
+}
+
+.professions{
+    margin-top: .6rem;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+.professions .profession:nth-child(1){
+    color:turquoise;
+}
+.professions .profession:nth-child(2){
+    color:orange;
+}
+.professions .profession:nth-child(3){
+    color:violet;
+}
